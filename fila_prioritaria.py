@@ -10,7 +10,7 @@ class FilaPrioritaria(FilaBase):
         self.gera_senha_atual()
         self.fila.append(self.senha_atual)
 
-    def chamacliente(self, caixa: int) -> str:
+    def chama_cliente(self, caixa: int) -> str:
         cliente_atual = self.fila.pop(0)
         self.clientes_atendidos.append(cliente_atual)
         return f'Cliente_atual: {cliente_atual}, dirija-se ao caixa: {caixa}'
