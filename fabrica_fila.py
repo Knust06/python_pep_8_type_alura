@@ -14,5 +14,4 @@ class FabricaFila:
         elif tipo_fila == TIPO_FILA_PRIORITARIA:
             return FilaPrioritaria()
         else:
-            raise NotImplemented('Tipo de fila não existe')
-
+            raise NotImplementedError('Tipo de fila não existe')
