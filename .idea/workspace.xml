@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6d9a8c9-c212-4359-9438-e51cba16e791" name="Changes" comment="Usando o flake8 para melhorar o código">
+    <list default="true" id="c6d9a8c9-c212-4359-9438-e51cba16e791" name="Changes" comment="Adicionando atualiza_fila no template method">
+      <change afterPath="$PROJECT_DIR$/constantes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabrica_fila.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fila_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/fila_base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fila_normal.py" beforeDir="false" afterPath="$PROJECT_DIR$/fila_normal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fila_prioritaria.py" beforeDir="false" afterPath="$PROJECT_DIR$/fila_prioritaria.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +138,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715614151852</updated>
-      <workItem from="1715614153228" duration="5835000" />
+      <workItem from="1715614153228" duration="6938000" />
     </task>
     <task id="LOCAL-00001" summary="Criando projeto Pycharm">
       <option name="closed" value="true" />
@@ -187,7 +188,31 @@
       <option name="project" value="LOCAL" />
       <updated>1715619171533</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adicionando métodos abstratos">
+      <option name="closed" value="true" />
+      <created>1715620084377</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715620084377</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adicionando atualiza_fila no templeta method">
+      <option name="closed" value="true" />
+      <created>1715620305580</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715620305580</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adicionando atualiza_fila no template method">
+      <option name="closed" value="true" />
+      <created>1715620357210</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715620357210</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,10 +236,13 @@
     <MESSAGE value="Usando flake8 na main.py para ver se o codigo segue o pep8 e mypy." />
     <MESSAGE value="Criando fila base para usar nas outras filas" />
     <MESSAGE value="Usando o flake8 para melhorar o código" />
-    <option name="LAST_COMMIT_MESSAGE" value="Usando o flake8 para melhorar o código" />
+    <MESSAGE value="Adicionando métodos abstratos" />
+    <MESSAGE value="Adicionando atualiza_fila no templeta method" />
+    <MESSAGE value="Adicionando atualiza_fila no template method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando atualiza_fila no template method" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_pep_8_type$main.coverage" NAME="main Coverage Results" MODIFIED="1715619679064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_pep_8_type$main.coverage" NAME="main Coverage Results" MODIFIED="1715620742728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_pep_8_type$fila_normal.coverage" NAME="fila_normal Coverage Results" MODIFIED="1715615133686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
