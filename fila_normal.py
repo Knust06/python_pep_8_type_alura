@@ -1,7 +1,7 @@
 from fila_base import FilaBase
+
+
 class FilaNormal(FilaBase):
-
-
     def gerasenhaatual(self) -> None:
         self.senhatual = f'NM{self.codigo}'
 
