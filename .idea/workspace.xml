@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6d9a8c9-c212-4359-9438-e51cba16e791" name="Changes" comment="Adicionando arquivos e início de type hints e pep8">
-      <change afterPath="$PROJECT_DIR$/fila_prioritaria.py" afterDir="false" />
+    <list default="true" id="c6d9a8c9-c212-4359-9438-e51cba16e791" name="Changes" comment="Adicionando fila prioritária e testes nela na main.py">
+      <change afterPath="$PROJECT_DIR$/tox.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila_normal.py" beforeDir="false" afterPath="$PROJECT_DIR$/fila_normal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +136,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715614151852</updated>
-      <workItem from="1715614153228" duration="2774000" />
+      <workItem from="1715614153228" duration="3583000" />
     </task>
     <task id="LOCAL-00001" summary="Criando projeto Pycharm">
       <option name="closed" value="true" />
@@ -153,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715615517503</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adicionando fila prioritária e testes nela na main.py">
+      <option name="closed" value="true" />
+      <created>1715616983469</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715616983469</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +182,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criando projeto Pycharm" />
     <MESSAGE value="Adicionando arquivos e início de type hints e pep8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando arquivos e início de type hints e pep8" />
+    <MESSAGE value="Adicionando fila prioritária e testes nela na main.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando fila prioritária e testes nela na main.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_pep_8_type$main.coverage" NAME="main Coverage Results" MODIFIED="1715616401887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
