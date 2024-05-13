@@ -1,5 +1,6 @@
 import abc
 
+
 class FilaBase(metaclass=abc.ABCMeta):
     codigo: int = 0
     fila = []
