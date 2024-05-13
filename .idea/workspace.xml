@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6d9a8c9-c212-4359-9438-e51cba16e791" name="Changes" comment="Adicionando fila prioritária e testes nela na main.py">
-      <change afterPath="$PROJECT_DIR$/tox.ini" afterDir="false" />
+    <list default="true" id="c6d9a8c9-c212-4359-9438-e51cba16e791" name="Changes" comment="Usando flake8 na main.py para ver se o codigo segue o pep8 e mypy.">
+      <change afterPath="$PROJECT_DIR$/fila_base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fila_normal.py" beforeDir="false" afterPath="$PROJECT_DIR$/fila_normal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fila_prioritaria.py" beforeDir="false" afterPath="$PROJECT_DIR$/fila_prioritaria.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +136,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715614151852</updated>
-      <workItem from="1715614153228" duration="3583000" />
+      <workItem from="1715614153228" duration="4215000" />
     </task>
     <task id="LOCAL-00001" summary="Criando projeto Pycharm">
       <option name="closed" value="true" />
@@ -162,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715616983469</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Usando flake8 na main.py para ver se o codigo segue o pep8 e mypy.">
+      <option name="closed" value="true" />
+      <created>1715617788803</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715617788803</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +191,8 @@
     <MESSAGE value="Criando projeto Pycharm" />
     <MESSAGE value="Adicionando arquivos e início de type hints e pep8" />
     <MESSAGE value="Adicionando fila prioritária e testes nela na main.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando fila prioritária e testes nela na main.py" />
+    <MESSAGE value="Usando flake8 na main.py para ver se o codigo segue o pep8 e mypy." />
+    <option name="LAST_COMMIT_MESSAGE" value="Usando flake8 na main.py para ver se o codigo segue o pep8 e mypy." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_pep_8_type$main.coverage" NAME="main Coverage Results" MODIFIED="1715616401887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
