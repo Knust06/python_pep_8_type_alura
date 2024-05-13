@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6d9a8c9-c212-4359-9438-e51cba16e791" name="Changes" comment="Adicionando atualiza_fila no template method">
-      <change afterPath="$PROJECT_DIR$/constantes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabrica_fila.py" afterDir="false" />
+    <list default="true" id="c6d9a8c9-c212-4359-9438-e51cba16e791" name="Changes" comment="Criando fabrica_fila.py e adicionando constantes. Mudando a main.py para testar a fabrica">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fila_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/fila_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fila_normal.py" beforeDir="false" afterPath="$PROJECT_DIR$/fila_normal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fila_prioritaria.py" beforeDir="false" afterPath="$PROJECT_DIR$/fila_prioritaria.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +135,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715614151852</updated>
-      <workItem from="1715614153228" duration="6938000" />
+      <workItem from="1715614153228" duration="7589000" />
     </task>
     <task id="LOCAL-00001" summary="Criando projeto Pycharm">
       <option name="closed" value="true" />
@@ -212,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715620357210</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Criando fabrica_fila.py e adicionando constantes. Mudando a main.py para testar a fabrica">
+      <option name="closed" value="true" />
+      <created>1715621427883</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715621427883</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,10 +244,11 @@
     <MESSAGE value="Adicionando métodos abstratos" />
     <MESSAGE value="Adicionando atualiza_fila no templeta method" />
     <MESSAGE value="Adicionando atualiza_fila no template method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando atualiza_fila no template method" />
+    <MESSAGE value="Criando fabrica_fila.py e adicionando constantes. Mudando a main.py para testar a fabrica" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando fabrica_fila.py e adicionando constantes. Mudando a main.py para testar a fabrica" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_pep_8_type$main.coverage" NAME="main Coverage Results" MODIFIED="1715620742728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_pep_8_type$main.coverage" NAME="main Coverage Results" MODIFIED="1715621280862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_pep_8_type$fila_normal.coverage" NAME="fila_normal Coverage Results" MODIFIED="1715615133686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
